@@ -18,7 +18,20 @@ public class Aulaprojeto07Application {
 
 		boolean trueOrFalse = arrayOne.equals(arrayTwo);
 		System.out.println(trueOrFalse);
+
+		System.out.println("__________________");
 		
+		System.out.println("arrayOne:");
+		for(int i:arrayOne){
+			System.out.println(i);
+		}
+
+		System.out.println("__________________");
+
+		System.out.println("arrayTwo:");
+		for(int i:arrayTwo){
+			System.out.println(i);
+		}
 
 	}
 
